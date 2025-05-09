@@ -1,3 +1,4 @@
 import { createRoot } from "react-dom/client";
-import Posts from "./Fetch & disp using axios/Posts";
-createRoot(document.getElementById("rajni")).render(<Posts/>)
+import Todos from "./Fetch & disp using axios/Todos";
+
+createRoot(document.getElementById("rajni")).render(<Todos/>)
