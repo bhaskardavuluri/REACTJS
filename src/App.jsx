@@ -1,4 +1,3 @@
 import { createRoot } from "react-dom/client";
-import Employee from "./LIST RENDERING/Employee2";
-
-createRoot(document.getElementById("rajni")).render(<Employee/>)
+import Posts from "./Fetch & disp using axios/Posts";
+createRoot(document.getElementById("rajni")).render(<Posts/>)
