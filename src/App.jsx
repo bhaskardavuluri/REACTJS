@@ -1,4 +1,15 @@
-import { createRoot } from "react-dom/client";
-import Posts from "./Useeffect Hook/Posts";
-
-createRoot(document.getElementById("rajni")).render(<Posts/>)
+import Products from "./components/Products";
+import { Provider } from "react-redux";
+import { store } from "./redux/store";
+let App=()=>{
+    
+    return <div> <Provider store={store}>
+        <h1>APP COMPONENT </h1>
+       
+        <hr/>
+         <Products/>
+         </Provider>
+         
+    </div>
+}
+export default App;
