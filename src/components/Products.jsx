@@ -2,7 +2,7 @@ import { useDispatch,useSelector} from "react-redux";
 import {incrAction,decrAction} from '../redux/product/product.action'
 let Products=()=>{
     let dispatch=useDispatch();
-    let product=useSelector(state=>state);
+    let product=useSelector(state=>state); //implicit return
     let incrhandler=()=>{
         dispatch(incrAction())
 

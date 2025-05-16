@@ -1,14 +1,16 @@
-import Products from "./components/Products";
-import { Provider } from "react-redux";
+import Mobil from "./components/Mobil";
 import { store } from "./redux/store";
+import { Provider } from "react-redux";
 let App=()=>{
     
     return <div> <Provider store={store}>
         <h1>APP COMPONENT </h1>
        
         <hr/>
-         <Products/>
-         </Provider>
+        <Mobil/>
+        </Provider>
+        
+         
          
     </div>
 }
